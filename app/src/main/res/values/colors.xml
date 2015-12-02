@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/quickstart_blue</color>
+    <color name="colorPrimaryDark">@color/quickstart_blue</color>
+    <color name="colorAccent">@color/quickstart_blue</color>
+
+    <color name="quickstart_blue">#3FBAEA</color>
+    <color name="quickstart_gray_text">#AEAEAE</color>
+</resources>

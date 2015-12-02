@@ -1,0 +1,20 @@
+<resources>
+
+    <style name="QuickStartAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:textColorPrimary">@color/quickstart_blue</item>
+
+        <item name="colorControlNormal">@color/quickstart_blue</item>
+    </style>
+
+    <style name="QuickStartAppTheme.Button" parent="Base.Widget.AppCompat.Button">
+        <item name="android:background">@drawable/rounded_bg</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="QuickStartAppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

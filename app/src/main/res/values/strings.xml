@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">QuickStart</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!-- Register member -->
+    <string name="register_member_description">You need to have your own API Key and Secret key to perform this API.\n\nRegister a <b>Free</b> account and get your <b>Api Key &amp; Secret Key</b>.</string>
+
+    <!-- Api -->
+    <string name="api_view_doc">View more related APIs &amp;\nDocumentation"</string>
+    <string name="api_learn_more"><u>Learn More</u></string>
+
+</resources>
