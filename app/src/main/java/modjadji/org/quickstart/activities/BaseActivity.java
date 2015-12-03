@@ -41,7 +41,7 @@ abstract class BaseActivity extends AppCompatActivity {
             learnMoreButton.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.google.com.sg"));
+                    Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://developer.modjadji.org/APIs"));
                     BaseActivity.this.startActivity(intent);
                 }
             });

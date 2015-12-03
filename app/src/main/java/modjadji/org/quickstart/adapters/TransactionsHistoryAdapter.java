@@ -57,7 +57,9 @@ public class TransactionsHistoryAdapter extends RecyclerView.Adapter<Transaction
     }
 
     public void showTransactions(List<TransactionsHistory.Transaction> transactions) {
-        mTransactions = transactions;
-        this.notifyDataSetChanged();
+        if (transactions != null) {
+            mTransactions = transactions;
+            this.notifyDataSetChanged();
+        }
     }
 }
